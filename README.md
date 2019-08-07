@@ -1,5 +1,5 @@
 # Mobile-Software
-*Mobile Software Practice*
+*Mobile Software Practice (Android Studio Project)*
 
 
 1. 3진수 덧셈, 곱셈 계산기
