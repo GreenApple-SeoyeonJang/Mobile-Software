@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D5D5"
+    tools:context=".MainActivity_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@android:color/transparent" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="310dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:background="#FFFFFF"
+            android:textSize="25dp"
+            android:inputType="textPersonName"
+            android:text="초등학교 졸업 입력" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="310dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:textSize="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="중학교 졸업 입력" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="310dp"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:textSize="25dp"
+            android:inputType="textPersonName"
+            android:text="고등학교 졸업 입력" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="310dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:text="대학교 졸업 예정" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_background"
+            android:textSize="30dp"
+            android:onClick="finish"
+            android:text="홈으로 돌아가기" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
